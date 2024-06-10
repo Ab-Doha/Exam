@@ -1,0 +1,103 @@
+:root {
+    --body-bg-color: #4DD4ED;
+    --div-container-color: #00ABFD;
+    --div-container2-color: #006BFF;
+    --txt-color: #fff;
+    --table-body-color: #57AE49;
+    --general-card: #B8EBFF;
+    --legume-list: #D13A14;
+}
+
+body{
+    background: var(--body-bg-color);
+}
+
+.custom-width {
+    width: 300px;
+}
+
+label {
+    color: white;
+    font-weight: bolder;
+}   
+.container {
+    background: var(--div-container-color);
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: transform 0.5s ease;
+}
+
+.container:hover {
+    transform: scale(1.1);
+}
+
+.form-container {
+    width: 100%;
+}
+.container2 {
+    background: var(--div-container2-color);
+    padding: 27px;
+    width: 70%;
+    border-radius: 5px;
+    transition: transform 0.5s ease;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    margin-left: 290px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container2:hover {
+    transform: scale(1.1);
+}
+
+.search:hover {
+    width: 400px;
+}
+
+hr {
+    border:none;
+    height: 15px;
+    width: 90%;
+    height: 50px;
+    margin-top: 0;
+    border-bottom: 1px solid #1f1209;
+    box-shadow: 20px 20px 20px -20px #333;
+    margin: -50px auto 10px;
+  }
+
+.list {
+    list-style: none;
+    padding: 0;
+}
+.list li {
+    padding: 16px 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+
+.card-title{
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+#general li {
+    background-color: var(--general-card);
+}
+#legume li {
+    background: var(--legume-list);
+}
+
+.card {
+    height: 400px;
+    width: 400px;
+    margin-bottom: 15px; border-radius:5px;
+}
+.card-body{
+    background: var(--table-body-color);
+}
