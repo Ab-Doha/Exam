@@ -4,7 +4,6 @@
     --div-container2-color: #006BFF;
     --txt-color: #fff;
     --table-body-color: #57AE49;
-    --general-card: #B8EBFF;
     --legume-list: #D13A14;
 }
 
@@ -24,7 +23,7 @@ label {
     background: var(--div-container-color);
     width: 100%;
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 3px;
     margin-bottom: 20px;
     transition: transform 0.5s ease;
 }
@@ -38,16 +37,13 @@ label {
 }
 .container2 {
     background: var(--div-container2-color);
-    padding: 27px;
-    width: 70%;
-    border-radius: 5px;
+    padding: 20px;
+    width: 80%;
+    border-radius: 3px;
     transition: transform 0.5s ease;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-    margin-left: 290px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    margin-left: 160px;
 }
 
 .container2:hover {
@@ -58,7 +54,7 @@ label {
     width: 400px;
 }
 
-hr {
+.hr {
     border:none;
     height: 15px;
     width: 90%;
@@ -69,35 +65,43 @@ hr {
     margin: -50px auto 10px;
   }
 
-.list {
-    list-style: none;
-    padding: 0;
-}
-.list li {
-    padding: 16px 16px;
-    margin-top: 10px;
-    border-radius: 5px;
-    width: 100%;
+.btn-primary1{
+    color: black;
+    background-color: #02BBF4;
 }
 
-
-.card-title{
-    color: white;
-    font-size: 20px;
-    font-weight: bolder;
-}
-#general li {
-    background-color: var(--general-card);
-}
-#legume li {
-    background: var(--legume-list);
-}
-
-.card {
-    height: 400px;
-    width: 400px;
-    margin-bottom: 15px; border-radius:5px;
-}
-.card-body{
+.d{
     background: var(--table-body-color);
+    border-radius: 5px;
+    margin: 12px;
+    padding: 15px;
+    height: 100%;
+}
+.title{
+    color: white;
+}
+.divf,.divfg,.divg{
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 3px;
+    
+}
+.divf:hover,.divfg:hover,.divg:hover{
+    text-shadow: 0 0px 20x 30px rgba(0, 0, 0, 3); 
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.5);
+    transform: scale(1.05);
+    cursor: pointer;
+    
+}
+.divf{
+   color: #2A6F7F;
+    background-color: #BBF0FE; 
+}
+.divfg{
+    color: #034582;
+    background-color: #C9E0FF;
+}
+.divg{
+    color: #60451e;
+    background-color: #FEF2CC;
 }
